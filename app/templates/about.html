@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="page- heading" >
+<h2>此博客构成简介</h2>
+<p>由flask、mongodb、flask-admin,编辑器使用ckeditor</p>
+<p>部署在docker+Gunicorn+Supervisor+Nginx</p>
+<hr>
+<h3>管理页面预览</h3>
+<p>首页</p>
+<img src="{{url_for('static',filename='admin/01.png',_external=True)}}" width="860px">
+<p>用户管理</p>
+<img src="{{url_for('static',filename='admin/02.png',_external=True)}}" width="860px">
+<p>文章管理</p>
+<img src="{{url_for('static',filename='admin/03.png',_external=True)}}" width="860px">
+<p>文章编辑</p>
+<img src="{{url_for('static',filename='admin/04.png',_external=True)}}" width="860px">
+<hr>
+<p>Connet Me: <a href="mailto:juanmao_love@126.com">juanmao_love@126.com</a></p>
+
+<hr class="small" >
+</div>
+{% endblock %}
