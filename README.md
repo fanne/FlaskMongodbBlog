@@ -1,5 +1,6 @@
 # TutorialBlog
-练习flask blog第二个项目
+
+flask blog
 
 后台编辑采用了ckeditor富文本
 
